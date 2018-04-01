@@ -10,7 +10,7 @@ namespace softwarefundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the ")
+            Console.WriteLine("Enter the Fibonacci number: ");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Fibonnaci number is:" + Fibonacci(n));
             Console.ReadLine();
